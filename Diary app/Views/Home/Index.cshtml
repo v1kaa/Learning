@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Your Diary App";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="display-4 font-weight-bold text-primary">Welcome to Your Diary App</h1>
+    <p class="lead mt-3">Capture your thoughts, memories, and ideas in one place. Start your journey of self-reflection and organization today!</p>
+    
+    <!-- Start Button -->
+    <div class="mt-4">
+        <a asp-controller="DiaryEntries" asp-action="Index" class="btn btn-lg btn-success">
+            <i class="fas fa-book-open mr-2"></i> Start Writing
+        </a>
+    </div>
+
+    <!-- Additional Information -->
+    <div class="mt-5">
+        <p class="text-muted">Learn more about <a href="https://learn.microsoft.com/aspnet/core" class="text-decoration-none">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+</div>
+
